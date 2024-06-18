@@ -18,7 +18,9 @@ public class StackTest {
 		
 		System.out.println(stack.pop());//김주원
 		System.out.println(stack.pop());//홍길동
-		System.out.println(stack.pop());//요소가 없는데 pop을 시키면 에러가 발생한다.
+//		System.out.println(stack.pop());//에러발생: EmptyStackException 요소가 없는데 pop을 시키면 에러가 발생한다.
+		System.out.println(stack.peek());//에러발생: EmptyStackException 요소가 없는데 peek을 시키면 에러가 발생한다.
+		//실행도중에 에러가 나는 경우는 try-catch가 아니라 if로 처리한다.
 	
 	
 	}
