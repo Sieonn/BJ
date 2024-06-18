@@ -31,7 +31,7 @@ public class Main_BJ_12891{
 //		System.out.println(Arrays.toString(minOccurs));
 		
 		//각 문자가 0번 이상 발생할 수 있으므로 각문자 키값에 기본값 0을 입력
-		//Key(유일한값)-A/C/G/T   Value-윈도우 너비내의 출현 카운트
+		//Key(유일한값)-A/C/G/T   Value-윈도우 너비 내의 출현 카운트
 		Map<Character, Integer>  map = new HashMap<>();
 		   map.put('A', 0);
 		   map.put('C', 0);
