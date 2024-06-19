@@ -12,6 +12,8 @@ public class Main_BJ_10163_색종이 {
 		
 		int[][] arr = new int [1001][1001];
 		
+		
+		
 
 	}
 
