@@ -9,16 +9,13 @@ public class Main_10951 {
 		StringBuilder sb = new StringBuilder();
 		String str;
 		
-		while ((str = br.readLine()) !=null ) {
-
+		while ((str = br.readLine()) !=null) {
 			StringTokenizer st = new StringTokenizer(str, " ");
 			int a = Integer.parseInt(st.nextToken());
-			int b = Integer.parseInt(st.nextToken());
-			int c =a+b;
-			sb.append(c);
-			sb.append("\n");
+			int b = Integer.parseInt(st.nextToken());;
+			System.out.println(a+b);
 		}
-		System.out.println(sb);
+		br.close();
 	}
 
 }
