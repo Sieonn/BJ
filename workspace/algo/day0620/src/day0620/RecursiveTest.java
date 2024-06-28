@@ -15,8 +15,7 @@ public class RecursiveTest {
 
 		System.out.print(arr[i] + "\t"); // 유도 파트
 //		recursive(++i);==> i=i+1
-		recursive(i+1);
-
+		recursive(i+1);zoom
 	}
 
 	public static void main(String[] args) {
