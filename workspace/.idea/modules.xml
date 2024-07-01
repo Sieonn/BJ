@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algo/BJ/BJ.iml" filepath="$PROJECT_DIR$/algo/BJ/BJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0610/day0610.iml" filepath="$PROJECT_DIR$/algo/day0610/day0610.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0611/day0611.iml" filepath="$PROJECT_DIR$/algo/day0611/day0611.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0612/day0612.iml" filepath="$PROJECT_DIR$/algo/day0612/day0612.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0613/day0613.iml" filepath="$PROJECT_DIR$/algo/day0613/day0613.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0614/day0614.iml" filepath="$PROJECT_DIR$/algo/day0614/day0614.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0617/day0617.iml" filepath="$PROJECT_DIR$/algo/day0617/day0617.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0618/day0618.iml" filepath="$PROJECT_DIR$/algo/day0618/day0618.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0619/day0619.iml" filepath="$PROJECT_DIR$/algo/day0619/day0619.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0620/day0620.iml" filepath="$PROJECT_DIR$/algo/day0620/day0620.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0621/day0621.iml" filepath="$PROJECT_DIR$/algo/day0621/day0621.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0622/day0622.iml" filepath="$PROJECT_DIR$/algo/day0622/day0622.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0625/day0625.iml" filepath="$PROJECT_DIR$/algo/day0625/day0625.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0626/day0626.iml" filepath="$PROJECT_DIR$/algo/day0626/day0626.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0627/day0627.iml" filepath="$PROJECT_DIR$/algo/day0627/day0627.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/day0628/day0628.iml" filepath="$PROJECT_DIR$/algo/day0628/day0628.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo/BJ/day0701/day0701.iml" filepath="$PROJECT_DIR$/algo/BJ/day0701/day0701.iml" />
+    </modules>
+  </component>
+</project>
