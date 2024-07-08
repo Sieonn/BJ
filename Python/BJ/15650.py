@@ -11,18 +11,18 @@ def NM(a, arr, index,cnt):
     for i in range(index, M):
         a[cnt] = arr[i]
         NM(a, arr,i+1, cnt+1)
-        
+arr = []        
 while True:
     # s = list(map(int, input().split()))
     
     N, M = map(int, input().split())
-    arr = [] #1부터 N까지 배열 생성
+#1부터 N까지 배열 생성
     for i in range(1, N+1):
         arr.append(i)
 # NM(a, arr, 0, 0 )
     if arr[0]==0:
         break
-    a = [0]*M
+    a = [0]*(M+1)
     NM(a, arr, 0, 0)
     print()        
         
