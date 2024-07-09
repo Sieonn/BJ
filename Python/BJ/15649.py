@@ -12,8 +12,6 @@ def dfs():
         a.append(i)
         dfs()
         a.pop()
-        # print(a)
-        # print(visited)
         visited[i] =False 
 N, M = map(int, input().split())
 a = []
