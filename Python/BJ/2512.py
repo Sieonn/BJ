@@ -1,8 +1,8 @@
 N = input()
 Narr = sorted(list(map(int, input().split())))
 # print(type(Narr), Narr)
-M = int(input())
-v = sum(Narr)//len(Narr)
+M = int(input()) # 총 예산
+v = M//len(Narr) #예산 평균
 b = []
 if sum(Narr) < M: 
     b.append(Narr[-1])
