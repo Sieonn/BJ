@@ -14,7 +14,7 @@ def sum(A,B):
     while B!= 0:
         A, B= B, A%B
     print(A)
-    return A2.insert(0,A)
+    return A
 for i in range(len(A2)):
     sum(A2[0], A2[1])
     del A2[1]                  
