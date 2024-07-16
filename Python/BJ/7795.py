@@ -18,5 +18,17 @@
 # 이진탐색을 사용해서 풀이
 import sys
 import bisect
+input = sys.stdin.readline
 
+tc = int(input().strip()) 
+
+for _ in range(tc):
+    A, B = map(int, input().strip().split())
+    Aarr = list(map(int, input().strip().split()))
+    Barr =  sorted(list(map(int, input().strip().split())))
+    
+    count = 0
+    for i in Aarr:
+        count += bisect.bisect_left(Barr, i)
+    print(count)
 
