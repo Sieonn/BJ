@@ -10,6 +10,7 @@ else:
     for i,j in enumerate(Narr):
         if v > j:
             M-=j
+            v = M//(len(Narr)-i)
             b.append(j)
         else:
             v = M//(len(Narr)-i)
