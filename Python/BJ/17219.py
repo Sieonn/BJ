@@ -1,10 +1,10 @@
 import sys
 input = sys.stdin.readline
-N,M = map(int,input().split())
-memo=[]
+N,M = map(int,input().strip().split())
+memo= {}
 for _ in range(N):
-    strr = list(input().split())
-    memo.append(strr)
+    web, password = input().strip().split()
+    memo[web] = password
 
 def findpw(memo, web):
     for i in memo:
@@ -12,5 +12,5 @@ def findpw(memo, web):
             return i[1]
         
 for _ in range(M):
-    pw = findpw(memo,  input())
+    pw = findpw(memo,  input().strip())
     print(pw)
