@@ -1,1 +1,1 @@
-visited
+tc = int(input().strip())
