@@ -52,3 +52,4 @@ print("9번",e(A))
 N = [1, 2, 3]
 e = list(map(lambda x : x+3, N))
 print("10번",e)
+
