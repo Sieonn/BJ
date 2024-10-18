@@ -11,13 +11,21 @@
 #         else:
 #             result.append(int(i))
 #     return sum(result)
-
-
-
 def solution(s):
-    answer = 0
-    for i in range(len(s := s.split(" "))):
-        answer += int(s[i]) if s[i] != "Z" else -int(s[i-1])
-    return answer
+    strArr = s.split( )
+    result = ""
+    for i, v in enumerate(strArr):
+        if v == "Z" and i != len(strArr):
+            result += "-"
+        else:
+            result += "+"+v
+    return result
+
+
+# def solution(s):
+#     answer = 0
+#     for i in range(len(s := s.split(" "))):
+#         answer += int(s[i]) if s[i] != "Z" else -int(s[i-1])
+#     return answer
 s = "1 2 Z 3"
 print(solution(s))
