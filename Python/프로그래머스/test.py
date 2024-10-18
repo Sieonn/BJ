@@ -54,10 +54,20 @@
 # print(S)
 # "000 1 0 1 00 1 0 11 0" => 5,4, 
 # "111 0 1 0 11 0 1 00 1" => 4+1, 5+1  
-import math
-fac = math.factorial
-def solution(balls, share):
-    return fac(balls)/(fac(balls-share)*fac(share))
-ball=3
-share=2
-print(solution(ball,share))
+# import math
+# fac = math.factorial
+# def solution(balls, share):
+#     return fac(balls)/(fac(balls-share)*fac(share))
+# ball=3
+# share=2
+# print(solution(ball,share))
+
+# def solution(my_string):
+#     my_string.islower()
+#     return sorted(my_string)
+
+my = "BasdD"
+myi = my.lower()
+myi = sorted(myi)
+myii = ''.join(myi)
+print(myii)
